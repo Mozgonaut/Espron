@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+body {
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.container, .bg-hw-works {
+      padding-bottom: 10px;
+      padding-top: 5px;
+  }
+.carousel-item {
+    height: 600px;
+    background-color: rgb(80, 80, 80);
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.h5Carousel {
+    font-size: 40px;
+}
+
+.pCarousel {
+    font-size: 20px;
+}
+
+#myCarousel {
+    padding-bottom: 10px;
+}
+
+.contact-us {
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 0;
+}
+
+#contact {
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+.bg-hw-works {
+    background-color: rgb(241, 241, 241);
+}
+
+.fa {
+    color: rgb(44, 33, 73);
+  }
+
+  .projekt {
+      padding-top: 15px;
+  }
+
+  .blockquote {
+      padding-top: 10px;
+  }
