@@ -1,103 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
 
 body {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
-.container, .bg-hw-works {
-      padding-bottom: 5px;
-      padding-top: 5px;
-  }
+.container,
+.bg-hw-works {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 .carousel-item {
-    height: 600px;
-    /* background-color: rgb(80, 80, 80); */
+  height: 600px;
+  /* background-color: rgb(80, 80, 80); */
 }
 
 .overlay-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
-    /* opacity: 0.5; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  /* opacity: 0.5; */
 }
 
 .h5Carousel {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .pCarousel {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #myCarousel {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 #references {
-    padding-top: 5px;
-    padding-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .contact-us {
-    background-color: rgb(241, 241, 241);
-    padding-bottom: 0;
+  background-color: rgb(241, 241, 241);
+  padding-bottom: 0;
 }
 
 #contact {
-    margin-top: 25px;
-    padding-top: 20px;
+  margin-top: 25px;
+  padding-top: 20px;
 }
 
 .bg-hw-works {
-    background-color: rgb(241, 241, 241);
+  background-color: rgb(241, 241, 241);
 }
 
 .fa {
-    color: rgb(44, 33, 73);
+  color: rgb(44, 33, 73);
 }
 
-#projekt, .projekt {
-      padding-top: 15px;
-}
-
-@media only screen and (max-width: 768px) {
-    .projekt:last-child {
-        padding-bottom: 80px;
-    }
+#projekt,
+.projekt {
+  padding-top: 15px;
 }
 
 @media only screen and (max-width: 768px) {
-    .col-md-4 {
-        padding-top: 15px;
-    }
+  .projekt:last-child {
+    padding-bottom: 80px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .carousel-item {
-        height: 500px;
-    }
+  .col-md-4 {
+    padding-top: 15px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .fa-phone, .fa-pencil, .fa-home {
-        padding-top: 30px;
-        padding-bottom: 15px;
-    }
+  .carousel-item {
+    height: 500px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    #references {
-        padding-bottom: 0px;
-    }
+  .fa-phone,
+  .fa-pencil,
+  .fa-home {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #references {
+    padding-bottom: 0px;
+  }
 }
 
 .blockquote {
-      padding-top: 10px;
+  padding-top: 10px;
 }
